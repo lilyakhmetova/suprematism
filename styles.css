@@ -4,60 +4,9 @@ body {
   overflow: hidden;
 }
 
-.blackrectangle {
-  position: absolute;
-  top: 2vw;
-  left: 6vw;
-  width: 25%;
-}
-
-
-.yellowrectangle {
-  position: absolute;
-  left: 3vw;
-  top: 20vw;
-  width: 20%;
-}
-
-.bluerectangle {
-  position: absolute;
-  left: 15vw;
-  top: 28vw;
-  width: 20%;
-
-}
-
-.redrectangle {
-  position: absolute;
-  right: 45vw;
-  width: 26%;
-}
-
-.greenrectangle {
-  position: absolute;
-  right: 28vw;
-  top: 10vw;
-  width: 18%;
-
-}
-
-.pinkrectangle {
-  position: absolute;
-  right: 15vw;
-  width: 18%;
-
-}
-
-.blackcircle {
-  position: absolute;
-  right: 2vw;
-  width: 24%;
-
-}
-
-@media (min-width: 375px) {
 
   .blackrectangle {
+    position: absolute;
     top: 2vw;
     left: 6vw;
     width: 40%;
@@ -65,12 +14,14 @@ body {
 
 
   .yellowrectangle {
+    position: absolute;
     left: 3vw;
     top: 35vw;
     width: 35%;
   }
 
   .bluerectangle {
+    position: absolute;
     left: 15vw;
     top: 60vw;
     width: 50%;
@@ -78,12 +29,14 @@ body {
   }
 
   .redrectangle {
+    position: absolute;
     right: 20vw;
     width: 70%;
     top: 40vw;
   }
 
   .greenrectangle {
+    position: absolute;
     right: 55vw;
     top: 110vw;
     width: 38%;
@@ -91,6 +44,7 @@ body {
   }
 
   .pinkrectangle {
+    position: absolute;
     right: 10vw;
     width: 40%;
     top: 20vw;
@@ -98,11 +52,63 @@ body {
   }
 
   .blackcircle {
+    position: absolute;
     right: 2vw;
     width: 34%;
     top: 20vw;
 
   }
+
+
+@media (min-width: 1000px) {
+
+  .blackrectangle {
+    top: 2vw;
+    left: 6vw;
+    width: 25%;
+  }
+
+
+  .yellowrectangle {
+    left: 3vw;
+    top: 20vw;
+    width: 20%;
+  }
+
+  .bluerectangle {
+    left: 15vw;
+    top: 28vw;
+    width: 20%;
+
+  }
+
+  .redrectangle {
+    right: 45vw;
+    width: 26%;
+    top: 0vw;
+  }
+
+  .greenrectangle {
+    right: 28vw;
+    top: 10vw;
+    width: 18%;
+
+  }
+
+  .pinkrectangle {
+    right: 15vw;
+    width: 18%;
+    top: 0vw;
+
+  }
+
+  .blackcircle {
+    right: 2vw;
+    width: 24%;
+    top: 0vw;
+
+  }
+
 
 
 }
